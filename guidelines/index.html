@@ -114,6 +114,7 @@
           <li class="nav-item"><a class="nav-link" href="#idocs_layout">Main Layout</a>
             <ul class="nav flex-column">
               <li class="nav-item"><a class="nav-link" href="#idocs_banner">Banner</a></li>
+              <li class="nav-item"><a class="nav-link" href="#idocs_ec">Event Card</a></li>
               <li class="nav-item"><a class="nav-link" href="#idocs_navbar">Navbar</a></li>
               <li class="nav-item"><a class="nav-link" href="#idocs_welcome">Welcome Section</a></li>
               <li class="nav-item"><a class="nav-link" href="#idocs_schedule">Service Schedule</a></li>
@@ -278,7 +279,14 @@
           <section id="idocs_layout">
             <h2>Main Layout</h2>
             <p class="lead mb-5">Documentation and examples for banner, navbar, welcome section, service schedule,
-              event, beneficary, news, and footer</p>
+              event, beneficary, news, and footer.</p>
+            <p class="alert alert-warning">
+              Technically, the primary process to change the content in a website is only need to search the keyword by pressing
+              <text style="background-color: #ffc107; color:white; font-weight: bold;">(CTRL + C)</text> 
+              the code/keyword in the section and search in vscode with
+              <text style="background-color: #ffc107; color:white; font-weight: bold;">(CTRL + F)</text> and then
+            <text style="background-color: #ffc107; color:white; font-weight: bold;">(CTRL + V)</text> + enter
+            </p>
           </section>
 
 
@@ -291,11 +299,8 @@
             <p><a class="popup-img" href="./assets/images/docs/banner_picture.jpg"><img class="img-fluid border"
                   src="./assets/images/docs/banner_picture.jpg" width="700" alt=""></a></p>
 
-            <p>The are 3 pictures in main banner and you can search by pressing
-              <text style="background-color: #ffc107; color:white; font-weight: bold;">(CTRL + C)</text> 
-              this code bellow and search in vscode with
-              <text style="background-color: #ffc107; color:white; font-weight: bold;">(CTRL + F)</text> then
-            <text style="background-color: #ffc107; color:white; font-weight: bold;">(CTRL + V)</text> + enter
+            <p>The are 3 pictures in main banner and you can search with this script
+
             </p>
 
             <pre><code class="html">data-lazyload=&quot;images/banner/1.jpg&quot;</code></pre>
@@ -315,6 +320,37 @@
           </section>
 
           <hr class="divider">
+
+          
+          <!-- Event Card		============================ -->
+          <section id="idocs_ec">
+            <h2>Event Card</h2>
+            <p class="lead mb-5">Information card about event</p>
+
+            <h4>Cards</h4>
+            <p><a class="popup-img" href="./assets/images/docs/ec.jpg"><img class="img-fluid border"
+                  src="./assets/images/docs/ec.jpg" width="700" alt=""></a></p>
+
+            <p>The are 6 cards available in main banner and you can change the card by search using same keywords</p>
+
+            <pre><code class="html">Event: Reflect The Community And Serving</code></pre>
+            <pre><code class="html">data-lazyload=&quot;images/banner/2.jpg&quot;</code></pre>
+            <pre><code class="html">data-lazyload=&quot;images/banner/3.jpg&quot;</code></pre>
+
+            <p>The picture files are located in the <span class="text-info">images/banner</span> inside jibc folder, if you only want to change the picture just replace the files with same name <span class="text-info">"1","2","3"</span> in .jpg format</p>
+            <br>
+            <h4>Text</h4>
+            <p>you can change the text in the middle of the picture by search this same text and replace it</p>
+            <pre><code class="html">A church family united in the Lord Jesus Christ</code></pre>
+            <pre><code class="html">God is mighty to save</code></pre>
+            <pre><code class="html">For the Spirit God gave us does not make us timid, but gives us power, love and self-discipline</code></pre>
+            <p class="alert alert-warning">Only change white color text in the vscode to change the content (text or picture). Please contact the <a target="_blank" href="#"><b>support</b></a> for more information.
+            </p>
+
+          </section>
+
+          <hr class="divider">
+
 
           <!-- Navbar		============================ -->
           <section id="idocs_navbar">
